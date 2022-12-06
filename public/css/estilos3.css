@@ -1,0 +1,119 @@
+body{
+  background-image: url(https://cdn.shopify.com/s/files/1/0504/2932/9574/products/Flower_Wallpaper_Mobile_1_1_1200x2134.jpg?v=1625662914);
+  font-family: century gothic;
+  text-align: center;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Century Gothic";
+    color: #a02929;
+}
+
+img {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .8s ease-in-out;
+}
+
+img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bgimg-1 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0504/2932/9574/products/Flower_Wallpaper_Mobile_1_1_1200x2134.jpg?v=1625662914");
+    min-height: 100%;
+}
+
+.caption {
+  position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.main-border {
+  background-color: rgba(125, 190, 147, .75);
+  color: #fff;
+  padding: 18px;
+  font-family: Aishiteru Lover;
+    font-size: 30px;
+    letter-spacing: 15px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: scroll;
+  }
+}
+
+body {
+  background: linear-gradient(#eee, #c9c9c9);
+  background-attachment: fixed;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 8em 0;
+}
+
+.hover {
+  position: relative;
+  top: 30%;
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+  transition: transform 300ms ease-in-out;
+  transition: 600ms ease-in-out;
+}
+
+.text-box h3 {
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  color: #f2f2f2;
+  display: block;
+  padding: 1em;
+}
+
+.hover:hover {
+  background: rgba(51,51,51,0.8);
+  transform: scale(1.1, 1.1);
+  border: 2px #eee solid;
+}
+
+a:link{
+  color: #7D8628;
+}
+
+a:visited{
+  color: rgb(128, 128, 128);
+}
+
+table, tr, td{
+  border: 3px solid;
+  border-collapse: collapse;
+  border-color: hotpink;
+}
+
+table{
+  width: 75%;
+  margin: 0 auto;
+}

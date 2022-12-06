@@ -1,0 +1,28 @@
+<?php
+$nombre = $_POST["nombre"];
+$correo = $_POST["correo"];
+$contraseña = $_POST["contraseña"];
+//$
+$observaciones = $_POST["observaciones"];
+
+$conexion = mysql_connect('skz','root','');
+if (!$conexion)
+{
+    die("Fallo la conexión a la Base de Datos: " . mysql_error());
+}
+
+$seleccionar_bd = mysql_select_db('patients', $conexion);
+if (!$seleccionar_bd)
+{
+    die("Fallo la selección de la Base de Datos:" . mysql_error());
+}
+
+$insertar = mysql_query("INSERT INTO patients (nombre, correo, contraseña, genero, observaciones)
+values ('$nombre', '$correo', '$contraseña', '$genero', '$observaciones')", $conexion);
+if (!$insertar)
+{
+    die("Fallo en la inserción de registro en la Base de Datos: " . mysql_error());
+}
+
+mysql_close($conexion);
+?>

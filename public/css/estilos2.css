@@ -1,0 +1,63 @@
+body{
+  background-image: url(https://cdn.shopify.com/s/files/1/0504/2932/9574/products/Flower_Wallpaper_Mobile_1_1_1200x2134.jpg?v=1625662914);
+  background-size: cover;
+  font-family: "Century Gothic";
+  text-align: center;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Century Gothic";
+    color: #a02929;
+}
+
+h2 {
+  color: #6BC0F5;
+  font-family: "Aishiteru Lover";
+  font-size: 50px;
+  letter-spacing: 15px;
+}
+
+h3 {
+  font-family: "Aishiteru Lover";
+  font-size: 30px;
+  letter-spacing: 15px;
+  text-align: left;
+}
+
+a:link{
+  color: rgb(230, 120, 142);
+}
+
+a:visited{
+  color: rgb(128, 128, 128);
+}
+
+textarea {
+	font-family: "Century Gothic";
+	color: rgb(150, 150, 150);
+	font-size: 15px;
+}
+
+input {
+	font-family: "Century Gothic";
+}
+
+.button{
+	text-decoration: none;
+    padding: 5px;
+    font-family: "Century Gothic";
+    font-size: 15px;
+    color: white;
+    background-color: rgb(230, 120, 142);
+}
+
+  .button:hover{
+    color: rgb(230, 120, 142);
+    background-color: white;
+  }
+
+  :invalid{
+    border-color: #EE235A;
+  }
